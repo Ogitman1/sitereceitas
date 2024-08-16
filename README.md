@@ -8,7 +8,7 @@ Na página do Dashboard, o usuário poderá preencher os campos relacionados a r
 ## Renderização e botões
 Depois que o usuário é autenticado, o *Authenticate.jsx* passa os dados do user para *RecipeForm.jsx*(arquivo com os inputs e labels da página) e *RecipeList.jsx*(responsável por renderizar o useState que guarda as informações recuperadas do banco de dados e de renderizar o useState que armazena temporariamente as receitas que são enviadas ao banco de dados).
 ### Botão 'Guardar'
-- O botão guardar pega as informações de *pair-values* de cada input e as armazena no setState pela função Send através de *e.target.name* e *e.target.value*
+- O botão 'Guardar' pega as informações de *pair-values* de cada input e as armazena no setState pela função Send através de *e.target.name* e *e.target.value*
 - A função assincrona 'Check', cria um novo objeto com o nome da receita, id do usuário e duas listas ".split('.')" para armazenar as instruções e ingredientes do usuário.
 - Depois ele faz uma query no database identicando o documento e passando esse objeto. Caso ele identifique algum erro no banco de dados, ele captura esse erro com catch
 ### Botão 'Recuperar receitas'
