@@ -14,3 +14,9 @@ Depois que o usuário é autenticado, o *Authenticate.jsx* passa os dados do use
 ### Botão 'Recuperar receitas'
 - Ao clicar no botão, ele chamará 'fetchrecipes' que disparará a tela de carregamento e  depois de um segundo chamará 'searchrecipes' para fazer a requisição de leitura do banco de dados.
 - Ele fará uma série de avaliações de erros do banco de dados e caso não houver nenhum erro, a tela de carregamento desaparecerá e as informações do usuário aprecerão na tela.
+## Arquivos 
+- Authenticate.jsx
+- RecipeForm.jsx
+- RecipeList.jsx
+- Header.jsx
+- RecipeList.css
