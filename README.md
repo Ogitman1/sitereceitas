@@ -2,7 +2,7 @@
 ## Escopo do projeto
 Esse projeto react consiste na criação de um website de receitas em que cada usuário pode anotar, armazenar e posteriormente recuperar as suas receitas do banco de dados.
 ## Tela Inicial
-Na tela inicial(Authentica.jsx), o usuário encontrará uma página de autenticação em que ele poderá se cadastrar e/ou se logar para que ele tenha acesso à aplicação. Depois de ser cadastrado com sucesso pelo tratamento de erros de *try* e *catch*, ele terá acesso a aplicação (RecipeForm.jsx).
+Na tela inicial(Authenticate.jsx), o usuário encontrará uma página de autenticação em que ele poderá se cadastrar e/ou se logar para que ele tenha acesso à aplicação. Depois de ser cadastrado com sucesso pelo tratamento de erros de *try* e *catch*, ele terá acesso a aplicação (RecipeForm.jsx).
 ## "Dashboard" da aplicação
 Na página do Dashboard, o usuário poderá preencher os campos relacionados a receita nos campos *'Receita'*, *'instruções'* e '*ingredientes*' e depois clicar no botão 'Guardar' para armazenar as informações no banco de dados. Ele também pode recuperar as suas receitas no botão 'Recuperar receitas'.
 ## Renderização e botões
