@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+}
+html {
+    background-color: black;
+}
+button{
+    background-color: rgb(36, 224, 52);
+    padding: 5px 30px;
+    border: none;
+    border-radius: 20px;
+    color: black;
+}
+header{
+    border-radius: 15px;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+input{
+    color: black;
+}
