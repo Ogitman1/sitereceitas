@@ -1,6 +1,6 @@
 # Website pessoal de receitas
 ## Escopo do projeto
-Esse projeto react consiste na criação de um website de receitas em que cada usuário pode anotar, armazenar e posteriormente recuperar as suas receitas do banco de dados.
+Esse projeto react consiste na criação de um website de receitas em que cada usuário pode anotar, armazenar e posteriormente recuperar as suas receitas do banco de dados, usando firebase.
 ## Tela Inicial
 Na tela inicial(Authenticate.jsx), o usuário encontrará uma página de autenticação em que ele poderá se cadastrar e/ou se logar para que ele tenha acesso à aplicação. Depois de ser cadastrado com sucesso pelo tratamento de erros de *try* e *catch*, ele terá acesso a aplicação (RecipeForm.jsx).
 ## "Dashboard" da aplicação
